@@ -4,7 +4,18 @@ DerivedDataCache/
 Intermediate/
 Saved/
 .vs/
+Build/
+
+# Ignore large content packs by default (we'll whitelist your stuff)
+Content/**
+!Content/Blueprints/**
+!Content/UI/**
+!Content/Maps/**
+!Content/Game/**
+
+
 
 # OS junk
 .DS_Store
 Thumbs.db
+
